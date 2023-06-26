@@ -1,0 +1,342 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default font family and font size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+header {
+    color: #202020;
+    padding: 20px;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:30px;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size:35px;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #f5eae6;
+}
+
+/* Navigation styles */
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d3beb9;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 10px;
+    padding-top:30px;
+    padding-right:5px;
+    padding-left:0px;
+    font-weight:bold;
+    
+}
+
+nav a {
+    font-size:16px;
+    font-weight: 500;
+    margin:0 5px;
+    color:#050505;  
+    border-radius: 5px;
+    transition: all .45s ease;
+    font-weight:bold;
+   
+    
+}
+
+nav a:hover {
+    background-color: #f3ecea;
+}
+
+/* Main section styles */
+main {
+    margin: 20px;
+}
+
+section {
+    margin-top: 50px;
+    border: 1px solid #d7ccc8;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4e342e;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6d6d6d;
+}
+
+/* Footer styles */
+footer {
+    color: #1a1818;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #0d0c0c;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #e7c9be;
+}
+
+.ques{
+    background-color:#c7b8b5;
+}
+.tests{
+    background-color:#e0cfb8;
+}
+.sch{
+    background-color: #958e8d;
+}
+.courses{
+    background-color:#afb3c0;
+}
+.study{
+    background-color:#a2b3c5;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #0072C6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #004B8D;
+  }
+  
+  /* Styles for Class 1-5 page */
+  .page1 h2 {
+    color: #FF8C00;
+  }
+  
+  .page1 form label {
+    font-weight: bold;
+  }
+  
+  .page1 footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  /* Styles for Class 6-10 page */
+  .page2 h2 {
+    color: #2E8B57;
+  }
+  
+  .page2 form label {
+    font-weight: bold;
+  }
+  
+  .page2 footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  form label {
+    font-size: 1.2rem;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #f2f2f2;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: none;
+  }
+  
+  form input[type="submit"] {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  form input[type="submit"]:hover {
+    background: #0066cc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    flex: 1;
+    margin-left:200px;
+  }
+  
+  img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .slide1{
+    display:flex;
+  }
+
+  .slide2{
+    display:flex;
+
+  }
+
+  .img1{
+    border-radius:5%;
+    margin:20px 30px 10px 40px;
+  }
+  
+  
+  .img2{
+    border-radius:5%;
+    margin:20px 30px 10px 40px;
+  }
+  
+  .h2{
+    margin-right:650px;
+    padding:30px 40px 40px 30px;
+  }
+
+.page1{
+    text-align: center;
+    font-family:cursive;
+    padding-bottom:10px;
+}
+
+.page2{
+    text-align: center;
+    font-family:cursive;
+    padding-bottom:10px;
+}
+
+.class2{
+    padding-top:50px;
+}
+
+.page3{
+    padding-top:30px;
+}
+
+p{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top:15px;
+}
